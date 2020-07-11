@@ -11,3 +11,18 @@ int main() {
 
 
  // program for product//
+ #include<iostream>
+ 
+ int main(){
+ float a;
+ float b;
+ std::cout<<"enter the num:"<<a;
+ std::cin>>a;
+ std::cin>>b;
+ float p;
+ p=a*b;
+ std::cout<<"the product is:"<<p;
+ return 0;
+ }
+ 
+ 
